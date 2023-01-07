@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    font-family: 'Work Sans';
+}
+.header{
+    background-image: url(../images/banner/banner3.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-right: 230px;
+    padding-left: 990px;
+    
+}
+.header_title{
+    font-weight: 700;
+    font-size: 65px;
+    text-align: right;
+    color: #FFFFFF;
+    padding-top: 216px;
+    max-width: 525px;
+    max-height: 224px;
+}
+.header_description{
+    font-weight: 400;
+    font-size: 16px;
+    text-align: right;
+    color: #FFFFFF;
+    margin-top: 24px;
+    max-width: 494px;
+    margin-left: 20px;
+}
+.btn_contact{
+    font-weight: 600px;
+    font-size: 20px;
+    color: #005FAC;
+    padding: 21px 25px;
+    margin-top: 32px;
+    margin-bottom: 100%;
+    border: none;
+    border-radius: 5px;
+    margin-right: 230px;
+    text-align: center;
+    margin-left: 350px;
+    width: 160px;
+    height: 64px;
+}
+
+/* ---------------------failures section------------- */
+
+.failures{
+    display: flex;
+    gap: 87px;
+    align-items: center;
+    margin-top: 0px;
+    margin-left: 206px;
+    margin-right: 322px;
+}
+
+.failues_heading{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+}
+.failures_description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+.failures_container{
+    width: 416px;
+    height: 400px;
+}
+.failures_container ul{
+    list-style: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    
+}
+.green_check{
+    color: #16D887;
+    left: 16.67%;
+    right: 16.67%;
+    top: 25%;
+    bottom: 29.17%;
+    
+}
+/* -------------------------------------- plan section-------------------------- */
+.plan{
+    margin-top: 130px;
+}
+.plan_heading{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    color: #151414;
+    margin-bottom: 50px;
+}
+.plan_container{
+    display: flex;
+    margin-left: 300px;
+    margin-right: 230px;
+    gap: 130px;
+    text-align: center;
+}
+.img_heading{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #151414;
+    margin-top: 24px;
+    
+}
+.img_description{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    color: #737272;
+    margin-top: 16px;
+
+}
+/* ------------------------------------------------mind set section--------------------- */
+.mindset{
+    background-image: url(../images/gradient1.png),url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 130px 230px;
+}
+.mind_heading{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    padding-top: 59px;
+    padding-left: 64px;
+    max-width: 459px;
+}
+.btn_call{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #005FAC;
+    width: 160px;
+    height: 64px;
+    left: 294px;
+    top: 2398.96px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+    margin-top: 24px;
+    margin-left: 64px;
+    margin-bottom: 69px;
+}
+
+/* ------------------------------------footer section------------------------------ */
+
+footer{
+    background: #151414;
+    display: flex;
+    gap: 331px;
+    padding: 130px 230px;
+}
+.footer_container{
+    margin-top: 130px 230px;
+}
+.footer_heading{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
+.footer_description{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+    max-width: 485px;
+}
+.mail{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.phone{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.subscribe{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+input{
+    color: #FFFFFF;
+    width: 325px;
+    height: 64px;
+    margin-top: 31px;
+    margin-bottom: 16px;
+    background-color: #151414;
+    padding: 21px;
+    border-color: #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+    border-radius: 10px;
+    
+}
+.btn_subscribe{
+    font-weight: 600;
+    font-size: 20px;
+    background-color: #005FAC;
+    color: #FFFFFF;
+    padding: 21px 25px;
+    margin-top: 32px;
+    margin-bottom: 100%;
+    border: none;
+    border-radius: 5px;
+    margin-right: 230px;
+    margin-bottom: 130px;
+
+}
